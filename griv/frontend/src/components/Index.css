@@ -1,0 +1,72 @@
+.index-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section 1: Heading and Login Info */
+.section-one {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+
+.section-one h1 {
+  font-size: 2.5rem;
+  color: blue; /* Text color for the heading */
+  margin-bottom: 10px;
+}
+
+.section-one p {
+  font-size: 1.2rem;
+  color: blue; /* Text color for the subheading */
+}
+
+/* Section 2: Cards */
+.section-two {
+  background-color: #1a1a5e; /* Dark blue background */
+  padding: 40px 20px;
+  min-height: 80vh; /* Increased height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.card-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

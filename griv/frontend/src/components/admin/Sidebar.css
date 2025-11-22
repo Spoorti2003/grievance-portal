@@ -1,0 +1,44 @@
+/* Sidebar Container */
+.sidebar {
+  height: 100vh; /* Full viewport height */
+  width: 200px; /* Fixed width */
+  position: fixed; /* Keeps it fixed to the left */
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa; /* Light gray background */
+  border-right: 1px solid #ddd; /* Subtle border for separation */
+  padding: 1rem; /* Adds padding around the links */
+  overflow-y: auto; /* Adds scroll if content exceeds height */
+}
+
+/* Navigation Links */
+.sidebar .nav-link {
+  color: #000; /* Black text */
+  font-weight: 500; /* Slightly bold */
+  transition: color 0.3s, background-color 0.3s; /* Smooth hover effect */
+  text-decoration: none; /* Removes underline */
+  padding: 0.5rem 0.75rem; /* Adds space around text */
+  border-radius: 4px; /* Rounded edges for hover effect */
+}
+
+/* Active and Hover State */
+.sidebar .nav-link:hover,
+.sidebar .nav-link:focus {
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+}
+
+/* Spacing between links */
+.sidebar .nav-item {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments (optional) */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 150px; /* Shrinks sidebar for smaller screens */
+  }
+  .sidebar .nav-link {
+    font-size: 0.9rem; /* Adjusts font size */
+  }
+}
